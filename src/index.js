@@ -42,7 +42,7 @@ expressSwaggerGenerator(app)(options);
 
 app.use(bodyParser.json()).use(cors());
 
-app.get("/", (request, response) => response.send("Hello World UW")); // a simple hello world msg and listen
+app.get("/", (request, response) => response.send("Hello World, Manulife Joonha says hi")); // a simple hello world msg and listen
 
 // fetch doctor data at api/v1/doctors
 app.get("/api/v1/doctors", (req, res) => res.json(data.doctors));
