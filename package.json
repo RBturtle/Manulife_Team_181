@@ -1,0 +1,23 @@
+{
+  "name": "skill_assessment_manulife",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r esm src/index.js",
+    "dev": "nodemon -r esm src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "express-swagger-generator": "^1.1.17",
+    "nodemon": "^2.0.14",
+    "swagger-ui-express": "^4.1.6"
+  }
+}
